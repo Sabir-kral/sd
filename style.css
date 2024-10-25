@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container div{
+    width: 417px;
+    height: 258px;
+    border-radius: 73px;
+    
+}
+.bir{
+    background: rgb(237,28,36);
+background: linear-gradient(90deg, rgba(237,28,36,1) 0%, rgba(252,236,33,1) 35%);
+}
+.iki{
+    background: rgb(46,51,147);
+background: linear-gradient(90deg, rgba(46,51,147,1) 0%, rgba(28,250,252,1) 35%);
+}
+.uc{
+    background: rgb(0,4,40);
+background: linear-gradient(90deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 35%);
+}
+.dord{
+    background: rgb(0,70,127);
+background: linear-gradient(90deg, rgba(0,70,127,1) 0%, rgba(165,204,130,1) 35%);
+}
+.bes{
+    background: rgb(118,75,162);
+background: linear-gradient(90deg, rgba(118,75,162,1) 0%, rgba(102,126,234,1) 35%);
+}
+.alti{
+    background: rgb(1,168,196);
+background: linear-gradient(90deg, rgba(1,168,196,1) 0%, rgba(251,254,127,1) 35%);
+}
+.yeddi{
+    background: rgb(255,0,204);
+background: linear-gradient(90deg, rgba(255,0,204,1) 0%, rgba(51,51,153,1) 35%);
+}
+.sekkiz{
+    background: rgb(255,212,162);
+    background: linear-gradient(90deg, rgba(255,212,162,1) 0%, rgba(254,1,89,1) 35%);
+}
+.doqquz{
+    background: rgb(104,45,140);
+background: linear-gradient(90deg, rgba(104,45,140,1) 0%, rgba(235,30,121,1) 35%);
+}
+.on{
+    background: rgb(253,252,251);
+background: linear-gradient(90deg, rgba(253,252,251,1) 0%, rgba(226,209,195,1) 35%);
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+width: 60vw;
+justify-content: space-around;
+position: relative;
+}
+.bir::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+.bir::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 125px;
+    left: 500px;
+}
+.iki::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 325px;
+    left: 500px;
+}
+.iki::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+.uc::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+.uc::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 650px;
+    left: 500px;
+}
+.dord::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 925px;
+    left: 500px;
+}
+.dord::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 890px;
+    left: 500px;
+}
+.bes::before{
+    content:"lorem ipsum";
+    position: absolute;
+    bottom: 100px;
+    left: 500px;
+}
+.bes::after{
+    content:"lorem ipsum";
+    position: absolute;
+    bottom: 150px;
+    left: 500px;
+}
+.alti::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 150px;
+    right: -50px;
+}
+.alti::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 125px;
+    right: -50px;
+}
+.yeddi::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 400px;
+    right: -50px;
+}
+.yeddi::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 350px;
+    right: -50px;
+}
+.sekkiz::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 600px;
+    right: -50px;
+}
+.sekkiz::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 650px;
+    right: -50px;
+}
+.doqquz::before{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 900px;
+    right: -50px;
+}
+.doqquz::after{
+    content:"lorem ipsum";
+    position: absolute;
+    top: 950px;
+    right: -50px;
+}
+.on::before{
+    content:"lorem ipsum";
+    position: absolute;
+    bottom: 150px;
+    right: -50px;
+}
+.on::after{
+    content:"lorem ipsum";
+    position: absolute;
+    bottom: 100px;
+    right: -50px;
+}
